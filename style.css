@@ -1,0 +1,133 @@
+/* 
+
+Build Specifications:
+
+Properly link style.css in the head of the HTML file.
+
+Properly link the “Open Sans” font in the head of the HTML file.
+
+Properly use “Open Sans” in the style.css file.
+
+The background color of the body should be set to #f9fafc.
+
+Use #69696a for the colors that look gray.
+
+Use #000 for colors that look black.
+
+Use #FFF for the “Hire Us” and “Call To Action” text.
+
+Remove text-decoration from anchor tags.
+
+Border-left of description is implemented
+
+Footer is implemented using position fixed
+
+Footer has a background color of: rgba(247, 193, 162, 0.7);
+
+
+
+*/
+
+/* This text is in Open Sans */
+body { 
+	font-family: Open Sans; 
+    font-size: 16px;
+
+}
+
+h1 { font-family: "Open Sans"; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; } h3 { font-family: "Open Sans"; 
+        font-size: 14px; font-style: normal; font-variant: normal; 
+        font-weight: 700; line-height: 15.4px; } p { font-family: "Open Sans"; 
+            font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; 
+            line-height: 20px; } blockquote { font-family: "Open Sans"; font-size: 21px; 
+                font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+                pre { font-family: "Open Sans"; font-size: 13px; font-style: normal; font-variant: normal; 
+                    font-weight: 400; line-height: 18.5714px; }
+
+
+body {
+    font-style: "open sans";
+    background-color: #f9fafc;
+    font-size: 20px;
+
+
+
+}
+head {
+
+    font-style:open sans;
+    background-color: #f9fafc ;
+
+}
+
+button {
+text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: black;
+    color: #f9fafc
+  
+
+}
+
+
+
+p {
+    border-left-style: solid;
+    color:#69696a;
+
+}
+
+.nav {
+    text-decoration: none;
+    display: flex;
+    color: #69696a;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+   
+a {
+    text-decoration: none;  
+    color: #69696a;
+    padding: 10px;
+
+}
+
+.links-container {
+    display: flex;
+    color: #69696a;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: right;
+    background-color: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    bottom:16px;
+    left: 8px;
+       
+
+}
+
+footer {
+    position: absolute;
+    background-color: rgba(247, 193, 162, 0.7);
+    float: right;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: space-between
+
+    
+}
+
+
+   
+
